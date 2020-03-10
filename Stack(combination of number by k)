@@ -1,0 +1,15 @@
+a="1212789"
+k=3
+g=3
+d=3
+f=[]
+c=0
+while(1):
+    if(d==len(a)+1):
+        break
+    else:
+        c=a[d-k:g]
+        f.append(c)
+        d+=1
+        g+=1
+print(min(f))
